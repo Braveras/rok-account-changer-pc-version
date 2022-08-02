@@ -4,4 +4,5 @@ This is a little personal script i wrote to help me swap accounts in PC version 
 # How to save profiles
 With the game closed, go to the game path. Rename the folder "save" for "save - (acctname)". Launch the game again to login to another account, which will generate a new save folder. Repeat
 
+# Example
 ![Example](https://i.gyazo.com/d3f3ce9a559cbf8a2917d24ffb7f2436.png)
