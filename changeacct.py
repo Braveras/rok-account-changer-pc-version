@@ -1,5 +1,6 @@
 import os
 import sys
+import time
 
 check = input('Need to force close the game before start. Proceed? (Y/N)\n')
 if check == 'Y' or check == 'y':
@@ -22,9 +23,10 @@ if check == 'Y' or check == 'y':
     os.chdir(r'E:\ROK')
     os.rename('save', 'save - ' + acct)
     os.rename(fileList[choice], 'save')
-    
     print('Done!')
+    
     os.startfile("E:\ROK\launcher.exe")
+    time.sleep(2)
 else:
     print('OK run me again when u ready ;)')
 
